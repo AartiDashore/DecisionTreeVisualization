@@ -151,6 +151,8 @@ plot_feature_importance(dtree, iris.feature_names)
 1. **Decision Tree Visualization**: The decision tree is rendered as a PDF file named `iris_decision_tree.pdf`. This file contains the complete structure of the decision tree, with node splits, Gini index, and predicted classes.
 2. **Feature Importance Plot**: A horizontal bar chart shows the contribution of each feature (sepal length, sepal width, petal length, petal width) in the classification process.
 
+![Output1.png](https://github.com/AartiDashore/DecisionTreeVisualization/blob/main/Output1.png)
+
 ## How to Run
 
 1. **Clone the Repository or Copy the Code**:
@@ -172,7 +174,6 @@ plot_feature_importance(dtree, iris.feature_names)
    - The decision tree visualization will be saved as `iris_decision_tree.pdf`.
    - A bar chart will be displayed, showing the feature importance.
 
-   ![Output1.png](https://github.com/AartiDashore/DecisionTreeVisualization/blob/main/Output1.png)
 
 ## Customization
 - You can adjust the `max_depth` parameter in the Decision Tree to allow deeper splits.
